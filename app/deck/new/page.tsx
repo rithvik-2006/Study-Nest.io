@@ -202,7 +202,7 @@ export default function NewDeckPage() {
                 type="submit"
                 disabled={loading}
                 className="hover:opacity-90"
-                style={{ backgroundColor: "#697565", color: "#ECDFCC" }}
+                style={{ backgroundColor: "#282e20", color: "#ECDFCC" }}
               >
                 {loading ? "Creating..." : "Create Deck"}
               </Button>
