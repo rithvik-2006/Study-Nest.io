@@ -1,6 +1,6 @@
 
 
-# 📚 StudyNest — Smart Study App (MVP)
+# 🦜 StudyNest — Smart Study App (MVP)
 
 StudyNest is a modern, AI-ready study application built with **Next.js**, **Supabase**, and a pluggable tutor API.
 This MVP focuses on fast studying, spaced repetition (SRS), easy deck/card creation, and a future-proof structure for integrating a custom AI tutor.
