@@ -115,11 +115,18 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* globals.css */
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
+  :root {
+    /* Dark Mode Palette */
+    --background: 14 6% 9%;    /* #181C14 */
+    --foreground: 36 26% 90%;  /* #ECDFCC */
+    --card: 48 4% 23%;         /* #3C3D37 */
+    --card-foreground: 36 26% 90%; /* #ECDFCC */
+    --muted-foreground: 85 8% 43%; /* #697565 */
+    --primary: 85 8% 43%;      /* #697565 - Used for Buttons */
+    --primary-foreground: 14 6% 9%; /* #181C14 - Text on Primary Button */
+    --border: 85 8% 43%;       /* #697565 */
+    /* ... other variables like input, ring, etc., based on these colors */
   }
 }
