@@ -68,7 +68,7 @@ export function DeckList({ userDecks = true }: { userDecks?: boolean }) {
   {decks.map((deck) => (
     <Card
       key={deck.id}
-      className="transition-all hover:scale-[1.02] hover:shadow-xl bg-[#181C14] text-[#ECDFCC] border border-[#697565]"
+      className="transition-all hover:scale-[1.02] hover:shadow-xl bg-[#000000] text-[#ECDFCC] border border-[#697565]"
     >
       <CardHeader>
         <CardTitle className="text-lg truncate text-[#ECDFCC]">

@@ -83,11 +83,11 @@ export default function DeckPage() {
     )
 
   return (
-    <main className="min-h-screen bg-[#181C14] p-6">
+    <main className="min-h-screen bg-black p-6">
       <div className="max-w-4xl mx-auto text-[#ECDFCC]">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">{deck.title}</h1>
-          <p className="text-[#697565]">{deck.description}</p>
+          <p className="text-[#ECDFCC]">{deck.description}</p>
           <div className="flex gap-2 mt-4">
             <Button
               onClick={() => router.push(`/study/${deckId}`)}
@@ -99,7 +99,7 @@ export default function DeckPage() {
             <Button
               variant="outline"
               onClick={() => router.back()}
-              className="border border-[#697565] text-[#181C14] hover:bg-[#697565]"
+              className="border border-[#697565] text-[#181C14] hover:bg-[#fafbfc]"
             >
               Back
             </Button>
@@ -170,7 +170,7 @@ export default function DeckPage() {
 
           <div className="space-y-3">
             {cards.map((card) => (
-              <CardComponent key={card.id} className="p-4 bg-[#3C3D37] border-none">
+              <CardComponent key={card.id} className="p-4 bg-black border-[#697565]">
                 <p className="font-semibold text-[#ECDFCC] mb-2">{card.front}</p>
                 <p className="text-sm text-[#ECDFCC]">{card.back}</p>
               </CardComponent>
